@@ -6,6 +6,7 @@
       <directory url="file://$PROJECT_DIR$/product-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/order-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/inventory-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/discover-server/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -16,6 +17,7 @@
         <module name="product-service" />
         <module name="order-service" />
         <module name="inventory-service" />
+        <module name="discover-server" />
       </profile>
     </annotationProcessing>
   </component>
