@@ -6,16 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="c2184684-4aa0-4049-bdd0-1aa8e8427cfc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/com/ms/apigateway/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/ms/apigateway/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discover-server/target/classes/com/ms/eureakserver/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/discover-server/target/classes/com/ms/eureakserver/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/is/inventoryservice/service/Inventoryservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/is/inventoryservice/service/Inventoryservice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/is/inventoryservice/service/Inventoryservice.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/is/inventoryservice/service/Inventoryservice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discover-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discover-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover-server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discover-server/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/os/orderservice/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/os/orderservice/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/os/orderservice/service/Orderservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/os/orderservice/service/Orderservice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/os/orderservice/service/Orderservice.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/os/orderservice/service/Orderservice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/os/orderservice/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/os/orderservice/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,9 +132,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProductServicesApplication" />
         <item itemvalue="Application.OrderServiceApplication" />
         <item itemvalue="Application.InventoryServiceApplication" />
-        <item itemvalue="Application.ProductServicesApplication" />
         <item itemvalue="Application.ApiGatewayApplication" />
         <item itemvalue="Application.DiscoveryServer" />
       </list>
