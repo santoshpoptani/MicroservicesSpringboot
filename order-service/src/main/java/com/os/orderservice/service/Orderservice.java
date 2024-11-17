@@ -3,12 +3,14 @@ package com.os.orderservice.service;
 import com.os.orderservice.config.WebClientConfig;
 import com.os.orderservice.dto.OrderLineItemsRequest;
 import com.os.orderservice.dto.OrderRequest;
+import com.os.orderservice.event.OrderPlacedEvent;
 import com.os.orderservice.model.InventoryResponse;
 import com.os.orderservice.model.Order;
 import com.os.orderservice.model.OrderLineItems;
 import com.os.orderservice.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
@@ -24,6 +26,8 @@ public class Orderservice {
     private OrderRepository orderRepository;
     @Autowired
     private WebClient.Builder webClientBuilder;
+    @Autowired
+    private KafkaTemplate<String , OrderPlacedEvent> kafkaTemplate;
 
     public String placeOrder(OrderRequest orderRequest) {
         Order order = new Order();
@@ -50,6 +54,7 @@ public class Orderservice {
 
         if(match){
             orderRepository.save(order);
+            kafkaTemplate.sendDefault("notificationTopic" , new OrderPlacedEvent(order.getOrderNumber()));
             return "Order Placed Successfully";
         }
         else {
